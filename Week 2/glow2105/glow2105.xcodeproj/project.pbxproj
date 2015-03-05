@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496FC4BF1AA83E9500892051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4BE1AA83E9500892051 /* AppDelegate.swift */; };
+		496FC4C41AA83E9500892051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496FC4C21AA83E9500892051 /* Main.storyboard */; };
+		496FC4C61AA83E9500892051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496FC4C51AA83E9500892051 /* Images.xcassets */; };
+		496FC4C91AA83E9500892051 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496FC4C71AA83E9500892051 /* LaunchScreen.xib */; };
+		496FC4D51AA83E9500892051 /* glow2105Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4D41AA83E9500892051 /* glow2105Tests.swift */; };
+		496FC4DF1AA8419200892051 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4DE1AA8419200892051 /* GeneralViewController.swift */; };
+		496FC4E11AA8419F00892051 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4E01AA8419F00892051 /* AboutViewController.swift */; };
+		496FC4E31AA841A700892051 /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4E21AA841A700892051 /* EasterEggViewController.swift */; };
+		496FC4E51AA841AE00892051 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4E41AA841AE00892051 /* DetailsViewController.swift */; };
+		496FC4E71AA841B600892051 /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4E61AA841B600892051 /* MoreDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496FC4CF1AA83E9500892051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496FC4B11AA83E9500892051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496FC4B81AA83E9500892051;
+			remoteInfo = glow2105;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496FC4B91AA83E9500892051 /* glow2105.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glow2105.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496FC4BD1AA83E9500892051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496FC4BE1AA83E9500892051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		496FC4C31AA83E9500892051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496FC4C51AA83E9500892051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		496FC4C81AA83E9500892051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		496FC4CE1AA83E9500892051 /* glow2105Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glow2105Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496FC4D31AA83E9500892051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496FC4D41AA83E9500892051 /* glow2105Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glow2105Tests.swift; sourceTree = "<group>"; };
+		496FC4DE1AA8419200892051 /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralViewController.swift; path = ../GeneralViewController.swift; sourceTree = "<group>"; };
+		496FC4E01AA8419F00892051 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		496FC4E21AA841A700892051 /* EasterEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
+		496FC4E41AA841AE00892051 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		496FC4E61AA841B600892051 /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496FC4B61AA83E9500892051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496FC4CB1AA83E9500892051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496FC4B01AA83E9500892051 = {
+			isa = PBXGroup;
+			children = (
+				496FC4BB1AA83E9500892051 /* glow2105 */,
+				496FC4D11AA83E9500892051 /* glow2105Tests */,
+				496FC4BA1AA83E9500892051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496FC4BA1AA83E9500892051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4B91AA83E9500892051 /* glow2105.app */,
+				496FC4CE1AA83E9500892051 /* glow2105Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496FC4BB1AA83E9500892051 /* glow2105 */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4BE1AA83E9500892051 /* AppDelegate.swift */,
+				496FC4C21AA83E9500892051 /* Main.storyboard */,
+				496FC4DE1AA8419200892051 /* GeneralViewController.swift */,
+				496FC4E01AA8419F00892051 /* AboutViewController.swift */,
+				496FC4E21AA841A700892051 /* EasterEggViewController.swift */,
+				496FC4E41AA841AE00892051 /* DetailsViewController.swift */,
+				496FC4E61AA841B600892051 /* MoreDetailsViewController.swift */,
+				496FC4C51AA83E9500892051 /* Images.xcassets */,
+				496FC4C71AA83E9500892051 /* LaunchScreen.xib */,
+				496FC4BC1AA83E9500892051 /* Supporting Files */,
+			);
+			path = glow2105;
+			sourceTree = "<group>";
+		};
+		496FC4BC1AA83E9500892051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4BD1AA83E9500892051 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496FC4D11AA83E9500892051 /* glow2105Tests */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4D41AA83E9500892051 /* glow2105Tests.swift */,
+				496FC4D21AA83E9500892051 /* Supporting Files */,
+			);
+			path = glow2105Tests;
+			sourceTree = "<group>";
+		};
+		496FC4D21AA83E9500892051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4D31AA83E9500892051 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496FC4B81AA83E9500892051 /* glow2105 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496FC4D81AA83E9500892051 /* Build configuration list for PBXNativeTarget "glow2105" */;
+			buildPhases = (
+				496FC4B51AA83E9500892051 /* Sources */,
+				496FC4B61AA83E9500892051 /* Frameworks */,
+				496FC4B71AA83E9500892051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glow2105;
+			productName = glow2105;
+			productReference = 496FC4B91AA83E9500892051 /* glow2105.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496FC4CD1AA83E9500892051 /* glow2105Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496FC4DB1AA83E9500892051 /* Build configuration list for PBXNativeTarget "glow2105Tests" */;
+			buildPhases = (
+				496FC4CA1AA83E9500892051 /* Sources */,
+				496FC4CB1AA83E9500892051 /* Frameworks */,
+				496FC4CC1AA83E9500892051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496FC4D01AA83E9500892051 /* PBXTargetDependency */,
+			);
+			name = glow2105Tests;
+			productName = glow2105Tests;
+			productReference = 496FC4CE1AA83E9500892051 /* glow2105Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496FC4B11AA83E9500892051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Bas;
+				TargetAttributes = {
+					496FC4B81AA83E9500892051 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					496FC4CD1AA83E9500892051 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 496FC4B81AA83E9500892051;
+					};
+				};
+			};
+			buildConfigurationList = 496FC4B41AA83E9500892051 /* Build configuration list for PBXProject "glow2105" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496FC4B01AA83E9500892051;
+			productRefGroup = 496FC4BA1AA83E9500892051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496FC4B81AA83E9500892051 /* glow2105 */,
+				496FC4CD1AA83E9500892051 /* glow2105Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496FC4B71AA83E9500892051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496FC4C41AA83E9500892051 /* Main.storyboard in Resources */,
+				496FC4C91AA83E9500892051 /* LaunchScreen.xib in Resources */,
+				496FC4C61AA83E9500892051 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496FC4CC1AA83E9500892051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496FC4B51AA83E9500892051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496FC4E71AA841B600892051 /* MoreDetailsViewController.swift in Sources */,
+				496FC4E11AA8419F00892051 /* AboutViewController.swift in Sources */,
+				496FC4BF1AA83E9500892051 /* AppDelegate.swift in Sources */,
+				496FC4E31AA841A700892051 /* EasterEggViewController.swift in Sources */,
+				496FC4DF1AA8419200892051 /* GeneralViewController.swift in Sources */,
+				496FC4E51AA841AE00892051 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496FC4CA1AA83E9500892051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496FC4D51AA83E9500892051 /* glow2105Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496FC4D01AA83E9500892051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496FC4B81AA83E9500892051 /* glow2105 */;
+			targetProxy = 496FC4CF1AA83E9500892051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496FC4C21AA83E9500892051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496FC4C31AA83E9500892051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496FC4C71AA83E9500892051 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496FC4C81AA83E9500892051 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496FC4D61AA83E9500892051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		496FC4D71AA83E9500892051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496FC4D91AA83E9500892051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = glow2105/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		496FC4DA1AA83E9500892051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = glow2105/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		496FC4DC1AA83E9500892051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = glow2105Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glow2105.app/glow2105";
+			};
+			name = Debug;
+		};
+		496FC4DD1AA83E9500892051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = glow2105Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glow2105.app/glow2105";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496FC4B41AA83E9500892051 /* Build configuration list for PBXProject "glow2105" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496FC4D61AA83E9500892051 /* Debug */,
+				496FC4D71AA83E9500892051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496FC4D81AA83E9500892051 /* Build configuration list for PBXNativeTarget "glow2105" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496FC4D91AA83E9500892051 /* Debug */,
+				496FC4DA1AA83E9500892051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496FC4DB1AA83E9500892051 /* Build configuration list for PBXNativeTarget "glow2105Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496FC4DC1AA83E9500892051 /* Debug */,
+				496FC4DD1AA83E9500892051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496FC4B11AA83E9500892051 /* Project object */;
+}
