@@ -29,7 +29,6 @@ class AboutViewController: UIViewController
 	{
 		self.textField.resignFirstResponder()
 	}
-    
 
     /*
     // MARK: - Navigation
