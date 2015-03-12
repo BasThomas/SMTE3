@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4901AFF01AB1C71000D8D7CE /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4901AFEF1AB1C71000D8D7CE /* Pirate.swift */; };
 		49C600041AB19728006E8637 /* PirateKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C600031AB19728006E8637 /* PirateKitTests.swift */; };
 		49C600071AB19728006E8637 /* PirateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C6FFF01AB19728006E8637 /* PirateKit.framework */; };
 		49C600081AB19728006E8637 /* PirateKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49C6FFF01AB19728006E8637 /* PirateKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49C600111AB19731006E8637 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C600101AB19731006E8637 /* Request.swift */; };
-		49C600131AB19855006E8637 /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C600121AB19855006E8637 /* Pirate.swift */; };
 		49C6FFC31AB1964E006E8637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6FFC21AB1964E006E8637 /* AppDelegate.swift */; };
 		49C6FFC81AB1964E006E8637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C6FFC61AB1964E006E8637 /* Main.storyboard */; };
 		49C6FFCA1AB1964E006E8637 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C6FFC91AB1964E006E8637 /* Images.xcassets */; };
@@ -70,10 +70,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4901AFEF1AB1C71000D8D7CE /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
 		49C600021AB19728006E8637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C600031AB19728006E8637 /* PirateKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateKitTests.swift; sourceTree = "<group>"; };
 		49C600101AB19731006E8637 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		49C600121AB19855006E8637 /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
 		49C6FFBD1AB1964E006E8637 /* Pirates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pirates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C6FFC11AB1964E006E8637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C6FFC21AB1964E006E8637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -146,7 +146,6 @@
 		49C600141AB1985A006E8637 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				49C600121AB19855006E8637 /* Pirate.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -227,6 +226,7 @@
 			children = (
 				49C6FFF41AB19728006E8637 /* PirateKit.h */,
 				49C600101AB19731006E8637 /* Request.swift */,
+				4901AFEF1AB1C71000D8D7CE /* Pirate.swift */,
 				49C6FFF21AB19728006E8637 /* Supporting Files */,
 			);
 			path = PirateKit;
@@ -416,7 +416,6 @@
 				49C6FFC31AB1964E006E8637 /* AppDelegate.swift in Sources */,
 				49C6FFE31AB196A8006E8637 /* PirateTableViewController.swift in Sources */,
 				49C6FFE51AB196B7006E8637 /* PirateTableViewCell.swift in Sources */,
-				49C600131AB19855006E8637 /* Pirate.swift in Sources */,
 				49C6FFE71AB196E6006E8637 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4901AFF01AB1C71000D8D7CE /* Pirate.swift in Sources */,
 				49C600111AB19731006E8637 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -708,6 +708,7 @@
 				49C6000B1AB19728006E8637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49C6000D1AB19728006E8637 /* Build configuration list for PBXNativeTarget "PirateKitTests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +717,7 @@
 				49C6000F1AB19728006E8637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49C6FFB81AB1964E006E8637 /* Build configuration list for PBXProject "Pirates" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +735,7 @@
 				49C6FFDE1AB1964E006E8637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49C6FFDF1AB1964E006E8637 /* Build configuration list for PBXNativeTarget "PiratesTests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +744,7 @@
 				49C6FFE11AB1964E006E8637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
