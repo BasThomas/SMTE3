@@ -36,7 +36,6 @@ public class Request
 	{
 		self.delegate = delegate
 		self.baseString = "http://athena.fhict.nl/users/i886625/"
-		//self.baseString = "http://api.apostle.nl/api/v1/"
 	}
 	
 	/**
@@ -72,7 +71,6 @@ public class Request
 	{
 		let sessionConfig = NSURLSessionConfiguration.defaultSessionConfiguration()
 		
-		/* Create session, and optionally set a NSURLSessionDelegate. */
 		let session = NSURLSession(configuration: sessionConfig, delegate: nil, delegateQueue: nil)
 		
 		var URL = NSURL(string: "\(self.baseString + requestString)")
@@ -81,24 +79,17 @@ public class Request
 		let request = NSMutableURLRequest(URL: URL!)
 		request.HTTPMethod = method
 		
-		// Authorization
-		//let loginString = "admin:admin"
-		//let utf8String = (loginString as NSString).dataUsingEncoding(NSUTF8StringEncoding)
-		//let base64String = utf8String?.base64EncodedStringWithOptions(NSDataBase64EncodingOptions(rawValue: 0))
-		
-		// Headers
-		//request.addValue("Basic \(base64String!)", forHTTPHeaderField: "Authorization")
-		
-		/* Start a new Task */
 		let task = session.dataTaskWithRequest(request, completionHandler:
 		{
 			(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
 			if(error != nil)
 			{
-				// If there is an error in the web request, print it to the console
+				// If there is an error in the web request, print it to the console.
 				println("Request error: \(error.localizedDescription)")
 				
-				self.delegate!.handleError(error)
+				dispatch_async(dispatch_get_main_queue(), {
+					self.delegate!.handleError(error)
+				})
 				
 				return
 			}
@@ -109,10 +100,12 @@ public class Request
 			
 			if(err != nil)
 			{
-				// If there is an error parsing JSON, print it to the console
+				// If there is an error parsing JSON, print it to the console.
 				println("JSON Error: \(err!.localizedDescription)")
 				
-				self.delegate!.handleError(err!)
+				dispatch_async(dispatch_get_main_queue(), {
+					self.delegate!.handleError(err!)
+				})
 				
 				return
 			}
