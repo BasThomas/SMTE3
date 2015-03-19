@@ -30,6 +30,11 @@ class PirateTableViewController: UITableViewController, RequestDelegate
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+		
+		var refresh = UIRefreshControl()
+		refresh.addTarget(self, action: Selector("refresh"), forControlEvents: .ValueChanged)
+		
+		self.refreshControl = refresh
     }
 
     override func didReceiveMemoryWarning()
@@ -38,8 +43,16 @@ class PirateTableViewController: UITableViewController, RequestDelegate
         // Dispose of any resources that can be recreated.
     }
 	
+	func refresh()
+	{
+		let req = Request(delegate: self)
+		req.get(request: "pirates.json", withParams: ["": ""])
+	}
+	
 	func handleJSON(json: NSArray)
 	{
+		self.refreshControl?.endRefreshing()
+		
 		for pirate in json
 		{
 			var comments: String!
@@ -90,7 +103,26 @@ class PirateTableViewController: UITableViewController, RequestDelegate
 	
 	func handleError(error: NSError)
 	{
-		// Ignore for now.
+		self.refreshControl?.endRefreshing()
+		
+		let hud = MBProgressHUD(view: self.navigationController?.view)
+		self.navigationController?.view.addSubview(hud)
+		
+		switch(error.code)
+		{
+			case -1009:
+				hud.labelText = "Geen internetverbinding"
+				
+			default:
+				hud.labelText = "Probeer het nog eens"
+		}
+		
+		hud.customView = UIImageView(image: UIImage(named: "warning"))
+		
+		hud.mode = .CustomView
+		
+		hud.show(true)
+		hud.hide(true, afterDelay: 1)
 	}
 
     // MARK: - Table view data source
