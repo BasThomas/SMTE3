@@ -147,13 +147,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		49C600141AB1985A006E8637 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		49C6FFB41AB1964E006E8637 = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				49C6FFC21AB1964E006E8637 /* AppDelegate.swift */,
-				49C600141AB1985A006E8637 /* Model */,
 				49C6FFEA1AB19710006E8637 /* Control */,
 				49C6FFC61AB1964E006E8637 /* Main.storyboard */,
 				49C6FFCB1AB1964E006E8637 /* LaunchScreen.xib */,

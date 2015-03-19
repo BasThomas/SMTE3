@@ -92,9 +92,23 @@ class PirateTableViewController: UITableViewController, RequestDelegate
 				name != nil &&
 				yearsActive != nil)
 			{
-				let pirate = Pirate(name, life: life, yearsActive: yearsActive, originCountry: originCountry, comments: comments)
+				var added = false
 				
-				self.pirates.append(pirate)
+				for pi in self.pirates
+				{
+					if pi.name == name
+					{
+						added = true
+						break
+					}
+				}
+				
+				if !added
+				{
+					let pirate = Pirate(name, life: life, yearsActive: yearsActive, originCountry: originCountry, comments: comments)
+					
+					self.pirates.append(pirate)
+				}
 			}
 		}
 		
