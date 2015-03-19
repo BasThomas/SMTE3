@@ -18,3 +18,6 @@ Verdere uitwerking van de oplossing staat op losse poten, maar we hebben e.e.a. 
 
 ## Week 2
 Techniek: Ik denk dat ik hier geen woorden aan vuil hoef te maken. Joost ook nog geholpen met de Command Line Application, aangezien hij die nog niet gemaakt had.
+
+## Week 3
+Techniek: Opdracht week 4 gemaakt. Cookie.
