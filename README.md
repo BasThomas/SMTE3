@@ -21,3 +21,4 @@ Techniek: Ik denk dat ik hier geen woorden aan vuil hoef te maken. Joost ook nog
 
 ## Week 3
 Techniek: Opdracht week 4 gemaakt. Cookie.
+Interface Design: Persona's en user stories geschreven. Het zoek-een-bandlid idee uitgewerkt.
