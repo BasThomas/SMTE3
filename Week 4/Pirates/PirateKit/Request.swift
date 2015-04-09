@@ -136,7 +136,7 @@ public class Request
 			var part = NSString(format: "%@=%@",
 				name.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!,
 				value.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!)
-			parts.append(part)
+			parts.append(part as String)
 		}
 		
 		return "&".join(parts)
@@ -154,6 +154,6 @@ public class Request
 	{
 		let URLString : NSString = NSString(format: "%@?%@", URL.absoluteString!, self.stringFromQueryParameters(queryParameters))
 		
-		return NSURL(string: URLString)!
+		return NSURL(string: URLString as String)!
 	}
 }

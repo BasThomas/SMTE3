@@ -155,7 +155,7 @@ class PirateTableViewController: UITableViewController, RequestDelegate
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
 	{
-        let cell = tableView.dequeueReusableCellWithIdentifier("pirateCell", forIndexPath: indexPath) as PirateTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("pirateCell", forIndexPath: indexPath) as! PirateTableViewCell
 
         // Configure the cell...
 		
@@ -216,8 +216,8 @@ class PirateTableViewController: UITableViewController, RequestDelegate
 	{
 		if segue.identifier == "detail"
 		{
-			let dvc = segue.destinationViewController as DetailViewController
-			let cell = sender as PirateTableViewCell
+			let dvc = segue.destinationViewController as! DetailViewController
+			let cell = sender as! PirateTableViewCell
 			
 			dvc.pirate = cell.pirate
 		}
